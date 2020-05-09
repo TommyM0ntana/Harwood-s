@@ -8,36 +8,37 @@ class Directory extends Component {
     this.state = {
       sections: [
         {
-          title: 'hats',
-          imageUrl: 'https://images.pexels.com/photos/792535/pexels-photo-792535.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+          title: 'man',
+          imageUrl: 'https://static.zara.net/photos//mkt/spots/ss20-north-in-front-of-man/subhome-xmedia-mew-in//portrait_0.jpg?ts=1588678275867&amp;imwidth=1920',
+          size: 'large',
+          id: 5,
+          linkUrl: 'shop/mens'
+        },
+        {
+          title: 'women',
+          imageUrl: 'https://static.pullandbear.net/2/static2/itxwebstandard/images/home/2020-04/30/Promo_Woman.jpg?v=20200509020501',
+          id: 4,
+          linkUrl: 'shop/womens'
+        },
+        {
+          title: 'accessory',
+          // imageUrl: '  https://static.bershka.net/4/static/itxwebstandard/images/home/2020/0508/D_slide_woman_tops_-1.jpg?20200509020504',
+
+          imageUrl: 'https://static.zara.net/photos//mkt/spots/aw20-north-shoes-bags-woman/subhome-xmedia-19//landscape_0.jpg?ts=1588696058506&amp;imwidth=1920',
           id: 1,
           linkUrl: 'shop/hats'
         },
         {
           title: 'jackets',
-          imageUrl: 'https://images.unsplash.com/photo-1545594861-3bef43ff2fc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+          imageUrl: 'https://static.zara.net/photos//mkt/spots/ss20-north-in-front-of-man/subhome-xmedia-stories//portrait_0.jpg?ts=1588678283400&amp;imwidth=1920',
           id: 2,
           linkUrl: 'shop/jackets'
         },
         {
-          title: 'sneakers',
-          imageUrl: 'https://images.unsplash.com/photo-1527090526205-beaac8dc3c62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
+          title: 'shoes',
+          imageUrl: 'https://static.zara.net/photos//mkt/spots/ss20-north-in-front-of-man/subhome-xmedia-collection//landscape_0.jpg?ts=1588756391563&amp;imwidth=2880',
           id: 3,
           linkUrl: 'shop/sneakers'
-        },
-        {
-          title: 'womens',
-          imageUrl: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=662&q=80',
-          size: 'large',
-          id: 4,
-          linkUrl: 'shop/womens'
-        },
-        {
-          title: 'mens',
-          imageUrl: 'https://images.unsplash.com/photo-1533690722797-a8b7aa2a2e8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80',
-          size: 'large',
-          id: 5,
-          linkUrl: 'shop/mens'
         }
       ]
     }
