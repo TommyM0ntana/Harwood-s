@@ -12,13 +12,13 @@ class Directory extends Component {
           imageUrl: 'https://static.zara.net/photos//mkt/spots/ss20-north-in-front-of-man/subhome-xmedia-mew-in//portrait_0.jpg?ts=1588678275867&amp;imwidth=1920',
           size: 'large',
           id: 5,
-          linkUrl: 'shop/mens'
+          linkUrl: 'ManPage'
         },
         {
           title: 'women',
           imageUrl: 'https://static.pullandbear.net/2/static2/itxwebstandard/images/home/2020-04/30/Promo_Woman.jpg?v=20200509020501',
           id: 4,
-          linkUrl: 'shop/womens'
+          linkUrl: 'womens'
         },
         {
           title: 'accessory',
@@ -26,19 +26,19 @@ class Directory extends Component {
 
           imageUrl: 'https://static.zara.net/photos//mkt/spots/aw20-north-shoes-bags-woman/subhome-xmedia-19//landscape_0.jpg?ts=1588696058506&amp;imwidth=1920',
           id: 1,
-          linkUrl: 'shop/hats'
+          linkUrl: 'accesory'
         },
         {
           title: 'jackets',
           imageUrl: 'https://static.zara.net/photos//mkt/spots/ss20-north-in-front-of-man/subhome-xmedia-stories//portrait_0.jpg?ts=1588678283400&amp;imwidth=1920',
           id: 2,
-          linkUrl: 'shop/jackets'
+          linkUrl: 'jackets'
         },
         {
           title: 'shoes',
           imageUrl: 'https://static.zara.net/photos//mkt/spots/ss20-north-in-front-of-man/subhome-xmedia-collection//landscape_0.jpg?ts=1588756391563&amp;imwidth=2880',
           id: 3,
-          linkUrl: 'shop/sneakers'
+          linkUrl: 'shoes'
         }
       ]
     }
@@ -48,8 +48,9 @@ class Directory extends Component {
     return (
       <div className='directory-menu'>
         {
-          this.state.sections.map(({ title, imageUrl, id, size }) => (
-            <Menuitem title={title} key={id} imageUrl={imageUrl} size={size} />
+          // this.state.sections.map(({ title, imageUrl, id, size, linkUrl }) => (
+          this.state.sections.map(({ id, ...otherSectionProps }) => (
+            <Menuitem key={id}  {...otherSectionProps} />
           ))
         }
       </div>
