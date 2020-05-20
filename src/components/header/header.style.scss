@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  height: 120px;
+  height: 85px;
   width: 100%;
   display: flex;
   
@@ -20,10 +20,9 @@
   }
 
   .logo {
-    width: 450px;
+    width: 300px;
   }
   .options {
-    padding-top: 10px;
     position: relative;
     width: 50%;
     height: 100%;
@@ -33,6 +32,7 @@
     font-weight: bold;
     vertical-align: bottom;
     line-height: 12px;
+    font-size: 90px;
 
     .option1 {
       padding-right: 55px;
