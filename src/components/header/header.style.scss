@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  
+  text-align: center;
+  justify-content: space-between;
+  z-index: 4;
+  background: rgba(255, 255, 255, 0.212);
+  box-shadow:  rgba(61, 56, 56, 0.212) 4px 5px 3px !important;
+  align-items: center;
+ 
+  
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 0px 30px;
+    
+  }
+
+  .logo {
+    width: 450px;
+  }
+  .options {
+    padding-top: 10px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    vertical-align: bottom;
+    line-height: 12px;
+
+    .option1 {
+      padding-right: 55px;
+      font-weight: 400;
+      padding-left: 20px;
+     
+     
+    }
+  }
+}
